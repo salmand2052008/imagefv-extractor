@@ -255,10 +255,8 @@ class ImageExtractor:
             output_subdir: Path) -> str | None:
         """Extract images from firmware file section."""
 
-        output_subdir.mkdir(parents=True, exist_ok=True)
-
         if file_label.endswith('.bmp') or len(section_data) < 1024*1024:
-            output_path = output_subdir / file_label
+            output_path = self.output_dir / file_label
             try:
                 with open(output_path, 'wb') as output_file:
                     output_file.write(section_data)
@@ -268,6 +266,10 @@ class ImageExtractor:
             except OSError as e:
                 logger.error('Failed to save %s: %s', file_label, e)
                 return None
+
+        output_subdir.mkdir(
+            parents=True, exist_ok=True
+        )
 
         if len(section_data) >= 2 and section_data[0:2] == b'\x1f\x8b':
             extracted_path = output_subdir / f'{file_label}.extracted'
